@@ -10,8 +10,8 @@ body {
     height:100%;
 }
 .container-left{
-    width:35%;
     display:flex;
+    flex: 2 0 0;
     height:100%;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -40,7 +40,7 @@ body {
 }
 .logo p{
     color: #C78FE3;
-    font-size:2.5rem;
+    font-size:3rem;
     font-weight:bolder;
 }
 .logo{
@@ -58,8 +58,8 @@ body {
 .container-right{
     border:2px solid black;
     display:Flex;
+    flex:3 0 0;
     flex-direction: column;
-    width:65%;
 
 }
 .container-ext{
@@ -88,13 +88,13 @@ body {
 }
 h1{
     font-size: 2rem;
-    color: rgb(57, 88, 109);
+    color: #c477eb;
     margin: 0;
     padding:20px;
 }
 h2{
     font-size: 1.5rem;
-    color:rgb(94, 110, 121);
+    color: #b55ae2;
     margin:20px;
 }
 .login{
